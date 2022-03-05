@@ -1,5 +1,7 @@
+const path = require('path');
 //-----------------------------------------------------------------------------------------------------------------------------------------
 //                                                  IMPORT FOLDER COMMANDS
+
 client.registry
     .registerDefaultTypes()
     .registerGroups([
