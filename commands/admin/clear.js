@@ -10,7 +10,7 @@ module.exports = class SetMemberCommand extends Command {
             memberName: 'clear',
             description: 'clear command',
             ownerOnly: false, 
-            guildOnly: false
+            guildOnly: true
         });
     }
 
